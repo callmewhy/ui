@@ -12,7 +12,7 @@
 
 **● createOptionHeader**: *`function`*
 
-*Defined in [options/types.ts:30](https://github.com/polkadot-js/ui/blob/2e16a6e/packages/ui-keyring/src/options/types.ts#L30)*
+*Defined in [options/types.ts:30](https://github.com/polkadot-js/ui/blob/cd5e62f/packages/ui-keyring/src/options/types.ts#L30)*
 
 #### Type declaration
 ▸(name: *`string`*): [KeyringSectionOption](../modules/_options_types_.md#keyringsectionoption)
@@ -32,7 +32,7 @@ ___
 
 **● init**: *`function`*
 
-*Defined in [options/types.ts:31](https://github.com/polkadot-js/ui/blob/2e16a6e/packages/ui-keyring/src/options/types.ts#L31)*
+*Defined in [options/types.ts:31](https://github.com/polkadot-js/ui/blob/cd5e62f/packages/ui-keyring/src/options/types.ts#L31)*
 
 #### Type declaration
 ▸(keyring: *[KeyringStruct](_types_.keyringstruct.md)*): `void`
