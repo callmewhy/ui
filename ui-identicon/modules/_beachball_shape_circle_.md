@@ -8,7 +8,7 @@
 
 ▸ **circle**(seeder: *[Seeder](_beachball_types_.md#seeder)*, fill: *`string`*, diameter: *`number`*, count: *`number`*): `Element`
 
-*Defined in [beachball/shape/circle.ts:11](https://github.com/polkadot-js/ui/blob/9de0e2e/packages/ui-identicon/src/beachball/shape/circle.ts#L11)*
+*Defined in [beachball/shape/circle.ts:11](https://github.com/polkadot-js/ui/blob/2e16a6e/packages/ui-identicon/src/beachball/shape/circle.ts#L11)*
 
 **Parameters:**
 
