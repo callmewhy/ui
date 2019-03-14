@@ -8,7 +8,7 @@
 
 ▸ **isTestChain**(chain?: *`string` \| `null`*): `boolean`
 
-*Defined in [isTestChain.ts:7](https://github.com/polkadot-js/ui/blob/e3edfd3/packages/ui-util/src/isTestChain.ts#L7)*
+*Defined in [isTestChain.ts:7](https://github.com/polkadot-js/ui/blob/3ce8b5b/packages/ui-util/src/isTestChain.ts#L7)*
 
 **Parameters:**
 
