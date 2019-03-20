@@ -20,7 +20,7 @@
 
 *Inherited from DeprecatedLifecycle.UNSAFE_componentWillMount*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:613*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:617*
 
 Called immediately before mounting occurs, and before `Component#render`. Avoid introducing any side-effects or subscriptions in this method.
 
@@ -45,7 +45,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.UNSAFE_componentWillReceiveProps*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:645*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:649*
 
 Called when the component may be receiving new props. React may call this even if props have not changed, so be sure to compare new and existing props if you only want to handle changes.
 
@@ -79,7 +79,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.UNSAFE_componentWillUpdate*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:673*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:677*
 
 Called immediately before rendering when new props or state is received. Not called for the initial render.
 
@@ -114,7 +114,7 @@ ___
 
 *Inherited from ComponentLifecycle.componentDidCatch*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:542*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:546*
 
 Catches exceptions generated in descendant components. Unhandled exceptions will cause the entire component tree to unmount.
 
@@ -136,7 +136,7 @@ ___
 
 *Inherited from ComponentLifecycle.componentDidMount*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:521*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:525*
 
 Called immediately after a component is mounted. Setting state here will trigger re-rendering.
 
@@ -151,7 +151,7 @@ ___
 
 *Inherited from NewLifecycle.componentDidUpdate*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:584*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:588*
 
 Called immediately after updating occurs. Not called for the initial render.
 
@@ -176,7 +176,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.componentWillMount*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:599*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:603*
 
 Called immediately before mounting occurs, and before `Component#render`. Avoid introducing any side-effects or subscriptions in this method.
 
@@ -199,7 +199,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.componentWillReceiveProps*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:628*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:632*
 
 Called when the component may be receiving new props. React may call this even if props have not changed, so be sure to compare new and existing props if you only want to handle changes.
 
@@ -231,7 +231,7 @@ ___
 
 *Inherited from ComponentLifecycle.componentWillUnmount*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:537*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:541*
 
 Called immediately before a component is destroyed. Perform any necessary cleanup in this method, such as cancelled network requests, or cleaning up any DOM elements created in `componentDidMount`.
 
@@ -246,7 +246,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.componentWillUpdate*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:658*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:662*
 
 Called immediately before rendering when new props or state is received. Not called for the initial render.
 
@@ -279,7 +279,7 @@ ___
 
 *Inherited from NewLifecycle.getSnapshotBeforeUpdate*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:578*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:582*
 
 Runs before React applies the result of `render` to the document, and returns an object to be given to componentDidUpdate. Useful for saving things such as scroll position before `render` causes changes to it.
 
@@ -301,7 +301,7 @@ ___
 
 ▸ **render**(): `Element`[]
 
-*Defined in [Demo.tsx:13](https://github.com/polkadot-js/ui/blob/8244986/packages/ui-identicon/src/Demo.tsx#L13)*
+*Defined in [Demo.tsx:13](https://github.com/polkadot-js/ui/blob/b1ceaf7/packages/ui-identicon/src/Demo.tsx#L13)*
 
 **Returns:** `Element`[]
 
@@ -314,7 +314,7 @@ ___
 
 *Inherited from ComponentLifecycle.shouldComponentUpdate*
 
-*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:532*
+*Defined in /home/travis/build/polkadot-js/ui/node_modules/@types/react/index.d.ts:536*
 
 Called to determine whether the change in props and state should trigger a re-render.
 

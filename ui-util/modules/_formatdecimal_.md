@@ -8,7 +8,7 @@
 
 ▸ **formatDecimal**(value: *`string`*): `string`
 
-*Defined in [formatDecimal.ts:7](https://github.com/polkadot-js/ui/blob/8244986/packages/ui-util/src/formatDecimal.ts#L7)*
+*Defined in [formatDecimal.ts:7](https://github.com/polkadot-js/ui/blob/b1ceaf7/packages/ui-util/src/formatDecimal.ts#L7)*
 
 **Parameters:**
 
