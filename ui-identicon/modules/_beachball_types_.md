@@ -8,7 +8,7 @@
 
 **Ƭ ColorGen**: *`function`*
 
-*Defined in [beachball/types.ts:7](https://github.com/polkadot-js/ui/blob/04834fb/packages/ui-identicon/src/beachball/types.ts#L7)*
+*Defined in [beachball/types.ts:7](https://github.com/polkadot-js/ui/blob/71a649c/packages/ui-identicon/src/beachball/types.ts#L7)*
 
 #### Type declaration
 ▸(alpha?: *`undefined` \| `number`*): `string`
@@ -28,7 +28,7 @@ ___
 
 **Ƭ Seeder**: *`function`*
 
-*Defined in [beachball/types.ts:5](https://github.com/polkadot-js/ui/blob/04834fb/packages/ui-identicon/src/beachball/types.ts#L5)*
+*Defined in [beachball/types.ts:5](https://github.com/polkadot-js/ui/blob/71a649c/packages/ui-identicon/src/beachball/types.ts#L5)*
 
 #### Type declaration
 ▸(): `number`
