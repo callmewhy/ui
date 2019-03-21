@@ -8,7 +8,7 @@
 
 ▸ **seeder**(_seed?: *`string` \| `Uint8Array`*): [Seeder](_beachball_types_.md#seeder)
 
-*Defined in [beachball/seeder.ts:11](https://github.com/polkadot-js/ui/blob/71a649c/packages/ui-identicon/src/beachball/seeder.ts#L11)*
+*Defined in [beachball/seeder.ts:11](https://github.com/polkadot-js/ui/blob/ec98152/packages/ui-identicon/src/beachball/seeder.ts#L11)*
 
 **Parameters:**
 
