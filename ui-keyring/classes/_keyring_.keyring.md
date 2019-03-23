@@ -20,7 +20,7 @@
 
 *Inherited from [Base](_base_.base.md).[constructor](_base_.base.md#constructor)*
 
-*Defined in [Base.ts:22](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L22)*
+*Defined in [Base.ts:22](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L22)*
 
 **Returns:** [Keyring](_keyring_.keyring.md)
 
@@ -36,7 +36,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[accounts](_base_.base.md#accounts)*
 
-*Defined in [Base.ts:30](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L30)*
+*Defined in [Base.ts:30](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L30)*
 
 **Returns:** `object`
 
@@ -49,7 +49,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[addresses](_base_.base.md#addresses)*
 
-*Defined in [Base.ts:34](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L34)*
+*Defined in [Base.ts:34](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L34)*
 
 **Returns:** `object`
 
@@ -62,7 +62,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[keyring](_base_.base.md#keyring)*
 
-*Defined in [Base.ts:38](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L38)*
+*Defined in [Base.ts:38](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L38)*
 
 **Returns:** `KeyringInstance`
 
@@ -76,7 +76,7 @@ ___
 
 ▸ **addExternal**(publicKey: *`Uint8Array`*, meta?: *`KeyringPair$Meta`*): [CreateResult](../modules/_types_.md#createresult)
 
-*Defined in [Keyring.ts:23](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L23)*
+*Defined in [Keyring.ts:23](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L23)*
 
 **Parameters:**
 
@@ -94,7 +94,7 @@ ___
 
 ▸ **addPair**(pair: *`KeyringPair`*, password: *`string`*): [CreateResult](../modules/_types_.md#createresult)
 
-*Defined in [Keyring.ts:33](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L33)*
+*Defined in [Keyring.ts:33](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L33)*
 
 **Parameters:**
 
@@ -112,7 +112,7 @@ ___
 
 ▸ **addUri**(suri: *`string`*, password?: *`undefined` \| `string`*, meta?: *`KeyringPair$Meta`*, type?: *`KeypairType`*): [CreateResult](../modules/_types_.md#createresult)
 
-*Defined in [Keyring.ts:43](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L43)*
+*Defined in [Keyring.ts:43](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L43)*
 
 **Parameters:**
 
@@ -132,7 +132,7 @@ ___
 
 ▸ **backupAccount**(pair: *`KeyringPair`*, password: *`string`*): `KeyringPair$Json`
 
-*Defined in [Keyring.ts:53](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L53)*
+*Defined in [Keyring.ts:53](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L53)*
 
 **Parameters:**
 
@@ -150,7 +150,7 @@ ___
 
 ▸ **createAccount**(seed: *`Uint8Array`*, password?: *`undefined` \| `string`*, meta?: *`KeyringPair$Meta`*): `KeyringPair`
 
-*Defined in [Keyring.ts:63](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L63)*
+*Defined in [Keyring.ts:63](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L63)*
 
 **Parameters:**
 
@@ -169,7 +169,7 @@ ___
 
 ▸ **createAccountExternal**(publicKey: *`Uint8Array`*, meta?: *`KeyringPair$Meta`*): `KeyringPair`
 
-*Defined in [Keyring.ts:69](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L69)*
+*Defined in [Keyring.ts:69](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L69)*
 
 **Parameters:**
 
@@ -187,7 +187,7 @@ ___
 
 ▸ **createAccountMnemonic**(seed: *`string`*, password?: *`undefined` \| `string`*, meta?: *`KeyringPair$Meta`*): `KeyringPair`
 
-*Defined in [Keyring.ts:75](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L75)*
+*Defined in [Keyring.ts:75](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L75)*
 
 **Parameters:**
 
@@ -208,7 +208,7 @@ ___
 
 *Implementation of [KeyringStruct](../interfaces/_types_.keyringstruct.md).[createFromUri](../interfaces/_types_.keyringstruct.md#createfromuri)*
 
-*Defined in [Keyring.ts:81](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L81)*
+*Defined in [Keyring.ts:81](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L81)*
 
 **Parameters:**
 
@@ -229,7 +229,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[decodeAddress](_base_.base.md#decodeaddress)*
 
-*Defined in [Base.ts:46](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L46)*
+*Defined in [Base.ts:46](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L46)*
 
 **Parameters:**
 
@@ -248,7 +248,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[encodeAddress](_base_.base.md#encodeaddress)*
 
-*Defined in [Base.ts:50](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L50)*
+*Defined in [Base.ts:50](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L50)*
 
 **Parameters:**
 
@@ -265,7 +265,7 @@ ___
 
 ▸ **encryptAccount**(pair: *`KeyringPair`*, password: *`string`*): `void`
 
-*Defined in [Keyring.ts:85](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L85)*
+*Defined in [Keyring.ts:85](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L85)*
 
 **Parameters:**
 
@@ -283,7 +283,7 @@ ___
 
 ▸ **forgetAccount**(address: *`string`*): `void`
 
-*Defined in [Keyring.ts:94](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L94)*
+*Defined in [Keyring.ts:94](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L94)*
 
 **Parameters:**
 
@@ -300,7 +300,7 @@ ___
 
 ▸ **forgetAddress**(address: *`string`*): `void`
 
-*Defined in [Keyring.ts:99](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L99)*
+*Defined in [Keyring.ts:99](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L99)*
 
 **Parameters:**
 
@@ -317,7 +317,7 @@ ___
 
 ▸ **getAccount**(address: *`string` \| `Uint8Array`*): [KeyringAddress](../modules/_types_.md#keyringaddress)
 
-*Defined in [Keyring.ts:103](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L103)*
+*Defined in [Keyring.ts:103](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L103)*
 
 **Parameters:**
 
@@ -334,7 +334,7 @@ ___
 
 ▸ **getAccounts**(): `Array`<[KeyringAddress](../modules/_types_.md#keyringaddress)>
 
-*Defined in [Keyring.ts:107](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L107)*
+*Defined in [Keyring.ts:107](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L107)*
 
 **Returns:** `Array`<[KeyringAddress](../modules/_types_.md#keyringaddress)>
 
@@ -345,7 +345,7 @@ ___
 
 ▸ **getAddress**(_address: *`string` \| `Uint8Array`*, type?: *"account" \| "address"*): [KeyringAddress](../modules/_types_.md#keyringaddress)
 
-*Defined in [Keyring.ts:116](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L116)*
+*Defined in [Keyring.ts:116](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L116)*
 
 **Parameters:**
 
@@ -363,7 +363,7 @@ ___
 
 ▸ **getAddresses**(): `Array`<[KeyringAddress](../modules/_types_.md#keyringaddress)>
 
-*Defined in [Keyring.ts:137](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L137)*
+*Defined in [Keyring.ts:137](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L137)*
 
 **Returns:** `Array`<[KeyringAddress](../modules/_types_.md#keyringaddress)>
 
@@ -376,7 +376,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[getPair](_base_.base.md#getpair)*
 
-*Defined in [Base.ts:54](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L54)*
+*Defined in [Base.ts:54](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L54)*
 
 **Parameters:**
 
@@ -395,7 +395,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[getPairs](_base_.base.md#getpairs)*
 
-*Defined in [Base.ts:58](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L58)*
+*Defined in [Base.ts:58](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L58)*
 
 **Returns:** `Array`<`KeyringPair`>
 
@@ -408,7 +408,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[isAvailable](_base_.base.md#isavailable)*
 
-*Defined in [Base.ts:64](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L64)*
+*Defined in [Base.ts:64](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L64)*
 
 **Parameters:**
 
@@ -427,7 +427,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[isPassValid](_base_.base.md#ispassvalid)*
 
-*Defined in [Base.ts:74](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L74)*
+*Defined in [Base.ts:74](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L74)*
 
 **Parameters:**
 
@@ -444,7 +444,7 @@ ___
 
 ▸ **loadAll**(options: *[KeyringOptions](../modules/_types_.md#keyringoptions)*): `void`
 
-*Defined in [Keyring.ts:178](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L178)*
+*Defined in [Keyring.ts:178](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L178)*
 
 **Parameters:**
 
@@ -461,7 +461,7 @@ ___
 
 ▸ **restoreAccount**(json: *`KeyringPair$Json`*, password: *`string`*): `KeyringPair`
 
-*Defined in [Keyring.ts:192](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L192)*
+*Defined in [Keyring.ts:192](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L192)*
 
 **Parameters:**
 
@@ -479,7 +479,7 @@ ___
 
 ▸ **saveAccount**(pair: *`KeyringPair`*, password?: *`undefined` \| `string`*): `KeyringPair$Json`
 
-*Defined in [Keyring.ts:210](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L210)*
+*Defined in [Keyring.ts:210](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L210)*
 
 **Parameters:**
 
@@ -497,7 +497,7 @@ ___
 
 ▸ **saveAccountMeta**(pair: *`KeyringPair`*, meta: *`KeyringPair$Meta`*): `void`
 
-*Defined in [Keyring.ts:221](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L221)*
+*Defined in [Keyring.ts:221](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L221)*
 
 **Parameters:**
 
@@ -515,7 +515,7 @@ ___
 
 ▸ **saveAddress**(address: *`string`*, meta: *`KeyringPair$Meta`*): `KeyringPair$Json`
 
-*Defined in [Keyring.ts:231](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L231)*
+*Defined in [Keyring.ts:231](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L231)*
 
 **Parameters:**
 
@@ -533,7 +533,7 @@ ___
 
 ▸ **saveRecent**(address: *`string`*): [SingleAddress](../modules/_observable_types_.md#singleaddress)
 
-*Defined in [Keyring.ts:253](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Keyring.ts#L253)*
+*Defined in [Keyring.ts:253](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Keyring.ts#L253)*
 
 **Parameters:**
 
@@ -552,7 +552,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[setAddressPrefix](_base_.base.md#setaddressprefix)*
 
-*Defined in [Base.ts:78](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L78)*
+*Defined in [Base.ts:78](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L78)*
 
 **Parameters:**
 
@@ -571,7 +571,7 @@ ___
 
 *Inherited from [Base](_base_.base.md).[setDevMode](_base_.base.md#setdevmode)*
 
-*Defined in [Base.ts:82](https://github.com/polkadot-js/ui/blob/a98d4dd/packages/ui-keyring/src/Base.ts#L82)*
+*Defined in [Base.ts:82](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-keyring/src/Base.ts#L82)*
 
 **Parameters:**
 
