@@ -8,7 +8,7 @@
 
 ▸ **formatNumber**(_value?: *`Compact` \| `BN` \| `number` \| `null`*): `string`
 
-*Defined in [formatNumber.ts:11](https://github.com/polkadot-js/ui/blob/0838911/packages/ui-util/src/formatNumber.ts#L11)*
+*Defined in [formatNumber.ts:11](https://github.com/polkadot-js/ui/blob/5beff95/packages/ui-util/src/formatNumber.ts#L11)*
 
 **Parameters:**
 
