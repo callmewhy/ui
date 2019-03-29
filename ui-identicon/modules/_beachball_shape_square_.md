@@ -8,7 +8,7 @@
 
 ▸ **square**(seeder: *[Seeder](_beachball_types_.md#seeder)*, fill: *`string`*, diameter: *`number`*, count: *`number`*): `Element`
 
-*Defined in [beachball/shape/square.ts:11](https://github.com/polkadot-js/ui/blob/a8101ee/packages/ui-identicon/src/beachball/shape/square.ts#L11)*
+*Defined in [beachball/shape/square.ts:11](https://github.com/polkadot-js/ui/blob/ba62946/packages/ui-identicon/src/beachball/shape/square.ts#L11)*
 
 **Parameters:**
 
